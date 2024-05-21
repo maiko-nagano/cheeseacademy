@@ -1,0 +1,211 @@
+/* ここから下に記載していく */
+/* reset cssはブラウザの指示をリセットするもの */
+/* p＋半角スペース＋なみかっこ＋改行 */
+/* スタイルシートの右側の分割ボタンを押す */
+/* 目印はHLMLタグの中に半角＋class="名前"、CSSで.名前半角スペースなみかっこ */
+/* 横並びはdf（ディスプレイフレックス） */
+/* 縦並びはdb（ディスプレイブロック） */
+/* margin外側の余白、padding内側の余白 */
+.wrap {
+    margin: auto;
+    width: 1200px;
+}
+.navi {
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+}
+nav li {
+    width: 50px;
+    float: left;
+    padding: 50px;
+}
+#main {
+    position: relative;
+}
+/* max-width 100%で画像の幅を親要素にあわせられる */
+.mainbg {
+    align-items: center;
+    max-width: 100%;
+}
+.maintext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px;
+    padding-top: 30px;
+}
+p {
+    font-size: 16px;
+    line-height: normal;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+h4 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+#about {
+    text-align: center;
+}
+.abouttext {
+    padding-bottom: 40px;
+}
+.yellowtext {
+    color: #ffd61a;
+}
+.aboutall {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+/* 横並びの画像の幅を指定幅におさめる場合　img */
+.aboutall img {
+    max-width: 100%;
+}
+.course01 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.course02 {
+    display: flex;
+}
+.course02text {
+    background-color: #fafafa;
+    width: 800px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.course03 {
+    display: flex;
+}
+.course03text {
+    background-color: #fafafa;
+    width: 800px;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.course04 {
+    display: flex;
+}
+.course04text {
+    background-color: #fafafa;
+    width: 800px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+#news {
+    text-align: center;
+}
+.newscheese {
+    text-align: left;
+    margin: 30px;
+    font-size: 14px;
+    line-height: normal;
+}
+.newscheese:hover {
+    opacity: 0.6;
+}
+/* 画像中央寄せ　display flex + justify-content center */
+.newsfield {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    border: 2px solid #ffd61a;
+    background-color: #ffd61a;
+    color: white;
+    margin: 60px;    
+}
+.button:hover {
+    background-color: white;
+    border-color: #ffd61a;
+    color: #ffd61a;
+}
+#access {
+    background-color: #fafafa;
+    padding-bottom: 60px;
+}
+.accesstitlemap {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.accesstable {
+    margin: auto;
+}
+th {
+    width: 130px;
+    vertical-align: middle;
+    text-align: left;
+}
+td {
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+#contact {
+    text-align: center;
+}
+.contacttext {
+    padding-bottom: 30px;
+}
+.contacttable {
+    margin: auto;
+}
+.contacttable td {
+    border-bottom: 2px solid #bfbfbf;
+    border-top: 2px solid #bfbfbf;
+    width: 500px;
+}
+/* white-space: pre-wrapは改行を見た目通りに行う */
+/* 枠線はborder */
+.contacttable th {
+    border-right: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    border-top: 2px solid #bfbfbf;
+    width: 240px;
+    white-space: pre-wrap;
+}
+.input {
+    margin: 8px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid #bfbfbf;
+}
+.inputarea {
+    margin: 8px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #bfbfbf;
+}
+.checkbox {
+    display: block;
+    margin: 24px;
+}
+.send {
+    display: block;
+    margin: auto;
+}
+footer {
+    padding: 30px;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
